@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Suite annotatinon">
+    <parameter name="url" value="http://www.myapplication.com"></parameter>
+    <parameter name="username" value="user1"></parameter>
+    <parameter name="password" value="pwd1"></parameter>
+
+    <test name="Login">
+        <classes>
+            <class name="Login"></class>
+        </classes>
+    </test>
+
+</suite>

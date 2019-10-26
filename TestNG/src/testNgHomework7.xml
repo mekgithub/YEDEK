@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Homework7">
+    <test name="Test2">
+        <classes>
+            <class name="Hmw7C1"></class>
+            <class name="Hmw7C2"></class>
+            <class name="Hmw7C3"></class>
+            <class name="Hmw7C4"></class>
+
+        </classes>
+    </test>
+</suite>

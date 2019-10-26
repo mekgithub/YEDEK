@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="foxSuite"> <!--parallel="classes" thread-count="3"-->
+    <test name="TestFox">
+        <classes>
+            <class name="Firefoxdriver"></class>
+        </classes>
+    </test>
+</suite>

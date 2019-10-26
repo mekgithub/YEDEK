@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mymy" >
+    <test name="TestTestTest">
+       <!-- <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>-->
+        <classes>
+            <class name="Login"></class>
+            <class name="Credit"></class>
+            <class name="Loan"></class>
+            <class name="Payment"></class>
+        </classes>
+    </test>
+</suite>

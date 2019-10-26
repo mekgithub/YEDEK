@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ChromeSuite" parallel="classes" thread-count="3">
+    <test name="test">
+        <classes>
+            <class name="Firefoxdriver"></class>
+            <class name="Chromedrivver"></class>
+        </classes>
+    </test>
+</suite>

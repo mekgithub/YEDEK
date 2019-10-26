@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+    <listeners>
+        <listener class-name="ExamListener"></listener>
+    </listeners>
+    <test name="set1">
+        <classes>
+            <class name="ExDataProvider"></class>
+
+        </classes>
+    </test>
+</suite>

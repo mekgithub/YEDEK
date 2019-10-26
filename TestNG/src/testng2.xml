@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Cases" verbose="0">
+    <test name="FullExecutionOrder">
+     <!--  <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>-->
+       <classes>
+           <class name="Login"></class>
+           <!--  <class name="Payment"></class>-->
+          <!--   <class name="Loan"></class>-->
+            <class name="Credit"></class>
+        </classes>
+     </test>
+ </suite>
